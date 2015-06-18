@@ -1,0 +1,370 @@
+/* site wide */
+
+body {
+  color: #525252;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+#main { margin-bottom: 50px;}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 1300px;
+}
+
+/* nav - top bar */
+
+#topbar {
+  background: #fff;
+  border-bottom: 1px solid #d7d7d7;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#topbar #logo {
+  margin: 0;
+  float: left;
+}
+
+#topbar nav.primary {
+  float: left;
+}
+
+#topbar nav.secondary {
+  float: right;
+}
+
+#topbar nav.primary li,
+#topbar nav.secondary li {
+  display: inline-block;
+  line-height: 20px;
+  list-style: none;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+#topbar nav.secondary li {
+  color: #9292A0;
+  font-size: 14px;
+  border-left: 1px solid #d7d7d7;
+}
+
+#topbar nav.secondary li .fa {
+  font-size: 18px;
+}
+
+#topbar nav.secondary li .fa-user {
+  margin-right: 10px;
+}
+
+/* nav - trending */
+
+.trending {
+  border-bottom: 1px solid #d7d7d7;
+  line-height: 20px;
+  padding: 5px 20px;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 61px;
+}
+
+.trending h3 {
+  float: left;
+  font-size: 17px;
+}
+
+.trending h3 span {
+  color: #929292;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.trending h3 a {
+  color: #00a5b2;
+}
+
+.trending nav.social {
+  float: right;
+  font-size: 28px;
+  color: #9292A0;
+}
+
+.trending nav.social li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* hero */
+
+#must-reads {
+  float: left;
+  margin: 20px 20px 20px 0;
+  position: relative;
+  width: 860px;
+}
+
+#must-reads .description {
+  background: rgba(255,255,255,0.8);
+  border: 1px solid #d7d7d7;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  width: 310px;
+}
+
+#must-reads .description h2 {
+  color: #929292;
+  font-family: Georgia;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#must-reads .description h4 {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 30px;
+  margin-left: 60px;
+}
+
+#must-reads .description span {
+  font-size: 64px;
+  font-weight: 100;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+#must-reads .slide-indicator {
+  width: 100%;
+  margin: 5px 7px 0 0;
+}
+
+#must-reads .slide-indicator li {
+  background-color: #d7d7d7;
+  display: inline-block;
+  width: 33%;
+  height: 10px;
+}
+
+#must-reads .slide-indicator li.active {
+  background-color: #929292;
+}
+
+/* latest stories */
+
+#latest-stories {
+  float: left;
+  margin: 20px 0 0 0;
+  width: 420px;
+}
+
+#latest-stories h2 {
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#latest-stories .stories {
+
+}
+
+#latest-stories .stories .story {
+  border-bottom: 1px solid #d7d7d7;
+  padding: 15px;
+}
+
+#latest-stories .stories .story .fa {
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 18px;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  width: 40px;
+}
+
+#latest-stories .stories .story h3 {
+  color: #929292;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0 0 10px 70px;
+  text-transform: uppercase;
+}
+
+#latest-stories .stories .story p {
+  font-size: 15px;
+  line-height: 24px;
+  margin-left: 70px;
+
+}
+
+#latest-stories .stories .story:last-child {
+  border-bottom: none;
+}
+
+/* things to make */
+
+#things-to-make {
+  clear: both;
+  margin-top: 20px;
+}
+
+#things-to-make h2 {
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#things-to-make .feature {
+  border: 1px solid #d7d7d7;
+  display: inline-block;
+  margin-right: 20px;
+  width: 305px;
+}
+
+#things-to-make .feature:last-child { margin-right: 0; }
+
+#things-to-make .feature h3 {
+  color: #929292;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+#things-to-make .feature h4 {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 20px;
+}
+
+/* hot this week */
+
+#hot-this-week {
+  clear: both;
+  margin-top: 20px;
+}
+
+#hot-this-week h2 {
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#hot-this-week .feature {
+  display: inline-block;
+  margin-right: 20px;
+  width: 305px;
+  vertical-align: top;
+}
+
+#hot-this-week .feature:last-child { margin-right: 0; }
+
+#hot-this-week .feature img {
+  float: left;
+}
+
+#hot-this-week .feature h3 {
+  color: #929292;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0 0 15px 120px;
+  text-transform: uppercase;
+}
+
+#hot-this-week .feature h4 {
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: 120px;
+}
+
+/* most recent */
+
+
+#most-recent {
+  clear: both;
+  margin-top: 20px;
+}
+
+#most-recent h2 {
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#most-recent .features {
+  margin: 0 0 20px;
+}
+
+#most-recent .feature {
+  border: 1px solid #d7d7d7;
+  display: inline-block;
+  height: 480px;
+  margin-right: 20px;
+  position: relative;
+  vertical-align: top;
+  width: 305px;
+}
+
+#most-recent .feature:last-child { margin-right: 0; }
+
+#most-recent .feature .avatar {
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 30px;
+  height: 50px;
+  position: absolute;
+  right: 20px;
+  top: 280px;
+  width: 50px;
+}
+
+#most-recent .feature h5 {
+  color: #929292;
+  font-size: 12px;
+  margin: 20px 20px 0;
+}
+
+#most-recent .feature h5 strong { font-style: strong; }
+#most-recent .feature h5 em {
+  font-style: italic;
+  font-family: Georgia;
+}
+
+
+#most-recent .feature h4 {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 10px 20px 20px;
+}
